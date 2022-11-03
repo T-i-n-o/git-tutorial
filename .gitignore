@@ -1,3 +1,13 @@
+<<<<<<< HEAD
 build/
+<<<<<<< HEAD
 bin/
 .vscode/
+=======
+=======
+doc/html
+doc/latex
+bin
+build
+>>>>>>> conflicts
+>>>>>>> merging
