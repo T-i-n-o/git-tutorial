@@ -1,30 +1,10 @@
-<<<<<<< HEAD
-project(git_tutorial)
-=======
 project(POSIX_state_machine)
->>>>>>> conflicts
 cmake_minimum_required(VERSION 3.4 FATAL_ERROR)
 
 set(CMAKE_BUILD_TYPE Debug)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/../bin)
 
 include_directories(include)
-<<<<<<< HEAD
-include_directories(lib)
-=======
-<<<<<<< HEAD
->>>>>>> merging
-
-file(GLOB SOURCES "src/*.c")
-
-add_executable(foo ${SOURCES})
-
-<<<<<<< HEAD
-file(GLOB ESPL_LIB_SRCS "lib/*.c")
-add_library(ESPL_LIB ${ESPL_LIB_SRCS})
-target_link_libraries(foo ESPL_LIB)
-=======
-=======
 include_directories(lib)
 
 file(GLOB SOURCES "src/*.c")
@@ -38,5 +18,3 @@ target_link_libraries(state_machine STATES_LIB)
 if(UNIX AND NOT APPLE)
     target_link_libraries(state_machine rt)
 endif()
->>>>>>> conflicts
->>>>>>> merging
